@@ -1,0 +1,127 @@
+body {
+    margin: 0vw;
+    padding: 0vw;
+    background-color: white;
+}
+
+#imgRes {
+    width: 20vw;
+    margin: -7vw 0vw 0vw 75vw;
+}
+
+#SectImg {
+    background-color: black;
+}
+
+#titre {
+    color: #6ce0e9;
+    font-size: 4vw;
+    margin: -6vw 35vw;
+    text-shadow: 1px 1.5px#aceffa;
+    position: absolute;
+}
+
+#msg {
+    font-size: 0.8vw;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+#messageForm {
+    font-size: 1vw;
+    margin: 2vw 30vw 10vw 30vw;
+    border-style: groove;
+    border-width: 0.2vw;
+    background-color: rgba(214, 212, 212, 0.446);
+}
+
+#nom {
+    margin: 0vw 1.9vw;
+    width: 20vw;
+    height: 1.5vw;
+    font-size: 1vw;
+}
+
+#prenom {
+    margin: 0vw 0.7vw;
+    width: 20vw;
+    height: 1.5vw;
+    font-size: 1vw;
+}
+
+#email {
+    margin: 0vw 1.4vw;
+    width: 20vw;
+    height: 1.5vw;
+    font-size: 1vw;
+}
+
+#message {
+    width: 20vw;
+    height: 10vw;
+    font-size: 1vw;
+    margin: -1.2vw 4vw;
+
+}
+
+.form {
+    margin: 0.7vw 6vw;
+
+}
+
+#envoyer {
+    margin: 3vw 15vw;
+    padding: 0.9vw;
+    width: 10vw;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 1vw;
+}
+
+#maps {
+    float: right;
+    margin: -42.4vw 5vw;
+    height: 32vw;
+}
+
+#ad {
+    float: right;
+    margin: -9vw 4.5vw;
+    font-size: 1.3vw;
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+#tel{
+    float: left;
+    margin:-27vw 70vw 0vw 8vw;
+    font-size: 2vw;
+
+}
+#add{
+    float: left;
+    margin:-34vw 70vw 0vw 8vw;
+    font-size: 2vw;
+}
+#icon1{
+    width: 5vw;
+    margin:-35vw 70vw 0vw 2vw;
+    position:absolute;
+
+ 
+}
+#icon2{
+    width: 5vw;
+    margin:-28vw 70vw 0vw 2vw;
+    position:absolute;
+
+}
+#ad:hover{
+    box-shadow: 5px 4px 10px#61d8ed;;
+    font-size: x-large; 
+    font-size: 1.4vw;
+}

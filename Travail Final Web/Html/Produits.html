@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produits</title>
+    <link rel="stylesheet" href="../Style/header.css">
+    <link rel="stylesheet" href="../Style/footer.css">
+    <link rel="stylesheet" href="../Style/light.css">
+    <link rel="stylesheet" href="../Style/Produits.css">
+</head>
+
+<body>
+    <!-------logo------------------------>
+    <aside id="logo">
+        <a href="../index.html"> <img src="../Images/Logo.png" alt="logo" width="100%" id="imgLogo"></a>
+        <p id="id">
+            Mariam Azzi 2020697
+        </p>
+    </aside>
+
+    <!---menu----------------------------------->
+    <div id="heading">
+        <div id="menu">
+            <a href="../index.html" class="menu">Accueil</a>
+            <a href="./Apropos.html" class="menu">À propos</a>
+            <a href="./Produits.html" class="menu">Produits</a>
+            <a href="./Services.html" class="menu">Service</a>
+            <a href="./Contact.html" class="menu">Contact</a>
+        </div>
+        <div id="top">
+            <img src="../" alt="">
+        </div>
+    </div>
+
+        <img src="../Images/produits/rabais.jpg" alt="rabais" id="rabais" width="5%">
+        <img src="../Images/produits/buy.jpg" alt="buy" id="buy">
+    <div id="p2">
+        <p>Vous trouverez ici les téléphones disponibles en magasin <br> Notre site est mis à jour fréquemment  </p>
+        <p id="p1">Plusieurs accessoires sont disponibles dans notre magasin <br><span style="font-size:larger ;"> Venez nous rendre visite ! </span> </p>
+    </div>
+        <p id="p3">Des rabais pour nos fidèles clients</p>
+    
+    <div id="click">Cliquez sur les photos pour voir les caractéristiques 
+        <img src="../Images/produits/emoji.jpg" alt="emoji" width="25%" style="position:absolute ;"> </div>
+
+    <!-------tableau pour organiser les photos et titres-->
+    <table>
+        <tr>
+            <th>Samsung Note9</th>
+            <th>Samsung A71</th>
+            <th>Samsung Galaxy S6</th>
+            <th>Iphone 8 plus</th>
+        </tr>
+        <tr>
+            <td>
+                <!------ modal pour afficher une fenetre avec les caractéristiques -------------------------------->
+                <div id="photo" class="light">
+                    <a href="#note9"><img src="../Images/produits/-Note-9.jpg" alt="samsung" width="55%"></a>
+                </div>
+                <div id="note9" class="modal">
+                    <div class="modal_content">
+
+                        <!--  caractéristique dans des listes ordonnées et non ordonnées -->
+                        <h1>Samsung Note9</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> SM-N960W </li>
+                            <li><b>Couleur : </b> Jaune </li>
+                            <li><b>Capacité de stockage :</b> 128 GB avec emplacement pour MicroSD </li>
+                            <li><b>Bluetooth :</b> 5.0 </li>
+                            <li><b>RAM : </b> 6GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.4 Pouces</li>
+                            <li><b>Type d'affichage : </b> AMOLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 8 MP </li>
+                                    <li><b>Arrière : </b> 12 MP </li>
+                                </ol>
+                            </li> <br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!----------2nd phone ----->
+            <td>
+                <div id="photo" class="light">
+                    <a href="#A71"><img src="../Images/produits/A71.jpeg" alt="samsung" width="75%"></a>
+                </div>
+                <div id="A71" class="modal">
+                    <div class="modal_content" class="light">
+
+                        <h1>Samsung A71</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> A715W </li>
+                            <li><b>Couleur : </b> Bleu nuit </li>
+                            <li><b>Capacité de stockage :</b> 128 GB avec emplacement pour MicroSD</li>
+                            <li><b>Bluetooth :</b> 5.0 </li>
+                            <li><b>RAM : </b> 6GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.7 Pouces</li>
+                            <li><b>Type d'affichage : </b> AMOLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 32MP</li>
+                                    <li><b>Arrière : </b> 64MP + 12 MP + 5MP </li>
+                                    <br>
+                                </ol>
+                            </li>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------3rd phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#galaxy s6"><img src="../Images/produits/galaxy-s6-.jpg" alt="samsung" width="70%"> </a>
+                </div>
+                <div id="galaxy s6" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Samsung Galaxy S6</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> SM-G920A </li>
+                            <li><b>Couleur : </b> Noir </li>
+                            <li><b>Capacité de stockage :</b> 64 GB </li>
+                            <li><b>Bluetooth :</b> 4.1 </li>
+                            <li><b>RAM : </b> 3GB </li>
+                            <li> <b> Taille de l'écran : </b> 5.1 Pouces</li>
+                            <li><b>Type d'affichage : </b> AMOLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 5 MP</li>
+                                    <li><b>Arrière : </b> 16 MP</li>
+                                </ol>
+                            </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------4th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#Iphone8plus"><img src="../Images/produits/iphone 8plus.jpg" alt="Iphone" width="70%"> </a>
+                </div>
+                <div id="Iphone8plus" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone 8 plus</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b> A1864 </li>
+                            <li><b>Couleur : </b> Gris Sidéral </li>
+                            <li><b>Capacité de stockage :</b> 64 GB</li>
+                            <li><b>RAM : </b> 3GB </li>
+                            <li> <b> Taille de l'écran : </b>5.5 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type: circle;">
+                                    <li> <b> Avant : </b>7 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K jusqu’à 60 images/s</li>
+                            <li><b>Écran : </b>Retina HD</li>
+                            <li><b>Bluetooth : </b> 5.0</li>
+                            <li><b>Touch ID :</b> Capteur d’empreinte digitale intégré au bouton principal </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <th>Iphone X</th>
+            <th>Iphone 12</th>
+            <th>Iphone X Max</th>
+            <th>LG G4</th>
+        </tr>
+
+
+        <tr>
+            <!---------5th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#IphoneX"><img src="../Images/produits/iphone x.jpg" alt="Iphone" width="60%"> </a>
+                </div>
+                <div id="IphoneX" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone X</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b> MQAC2VC </li>
+                            <li><b>Couleur : </b> Gris Cosmique</li>
+                            <li><b>Capacité de stockage :</b> 128 GB</li>
+                            <li><b>RAM : </b> 3GB </li>
+                            <li> <b> Taille de l'écran : </b>5.8 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type:circle;">
+                                    <li> <b> Avant : </b>7 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K jusqu’à 60 images/s</li>
+                            <li><b>Écran : </b> Retina HD</li>
+                            <li><b>Bluetooth : </b> 5.0</li>
+                            <li><b>Face ID </b> </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href=" #" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------6th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#Iphone12"><img src="../Images/produits/iphone_12_black_.png" alt="Iphone" width="62%">
+                    </a>
+                </div>
+                <div id="Iphone12" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone 12</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b>A2176 </li>
+                            <li><b>Couleur : </b>Noir</li>
+                            <li><b>Capacité de stockage :</b> 256 GB</li>
+                            <li><b>RAM : </b> 4GB </li>
+                            <li> <b> Taille de l'écran : </b>6.1 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type:circle;">
+                                    <li> <b> Avant : </b> 12 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K jusqu'à 60 images/s</li>
+                            <li><b>Écran : </b> Super Retina XDR</li>
+                            <li><b>Bluetooth : </b>5.0 </li>
+                            <li><b>Face ID </b> </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------7th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#IphoneXmax"><img src="../Images/produits/XS MAX.jpeg" alt="Iphone" width="39%"></a>
+                </div>
+                <div id="IphoneXmax" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone X Max</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b> A1921</li>
+                            <li><b>Couleur : </b>Or</li>
+                            <li><b>Capacité de stockage :</b> 256 GB</li>
+                            <li><b>RAM : </b> 4GB </li>
+                            <li> <b> Taille de l'écran : </b>6.5 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type:circle;">
+                                    <li> <b> Avant : </b> 7 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K jusqu'à 60 images/s</li>
+                            <li><b>Écran : </b> Super Retina HD</li>
+                            <li><b>Bluetooth : </b>5.0 </li>
+                            <li><b>Face ID </b> </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------8th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#LG G4"><img src="../Images/produits/LG G4.jpg" alt="LG" width="65%"></a>
+                </div>
+                <div id="LG G4" class="modal">
+                    <div class="modal_content">
+
+                        <h1>LG G4</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> LGH815BKEU </li>
+                            <li><b>Couleur : </b> Gris </li>
+                            <li><b>Capacité de stockage :</b> 32 GB avec emplacement pour MicroSD</li>
+                            <li><b>Bluetooth :</b> 4.1 </li>
+                            <li><b>RAM : </b> 3GB </li>
+                            <li> <b> Taille de l'écran : </b> 5.5 Pouces</li>
+                            <li><b>Type d'affichage : </b> LCD </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 8 MP</li>
+                                    <li><b>Arrière : </b> 16 MP</li><br>
+                                </ol>
+                            </li>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+        <tr>
+            <th>LG K61</th>
+            <th>LG Velvet</th>
+            <th>Motorolla Razr</th>
+            <th>Iphone 6s</th>
+        </tr>
+        <!---------9th phone------------>
+        <tr>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#LG K61"><img src="../Images/produits/Lg K61.jpg" alt="LG" width=33.5%></a>
+                </div>
+                <div id="LG K61" class="modal">
+                    <div class="modal_content">
+
+                        <h1>LG K61</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b>Modèle : </b> LMQ630UM </li>
+                            <li><b>Couleur : </b> Blanc </li>
+                            <li><b>Capacité de stockage :</b> 128 GB </li>
+                            <li><b>Bluetooth :</b> 5.0 </li>
+                            <li><b>RAM : </b> 4GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.5 Pouces</li>
+                            <li><b>Type d'affichage : </b> Pleine HD+ </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li><b> Avant : </b> 16MP </li>
+                                    <li><b>Arrière : </b> 48MP + 8MP + 5MP + 2MP </li>
+                                </ol>
+                            </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------10th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#LG velvet"><img src="../Images/produits/lg velvet.jpg" alt="LG" width="60%"></a>
+                </div>
+                <div id="LG velvet" class="modal">
+                    <div class="modal_content">
+
+                        <h1>LG Velvet</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> LM-G900UM </li>
+                            <li><b>Couleur : </b> Gris </li>
+                            <li><b>Capacité de stockage :</b> 128 GB </li>
+                            <li><b>Bluetooth :</b> 5.1 </li>
+                            <li><b>RAM : </b> 6GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.8 Pouces</li>
+                            <li><b>Type d'affichage : </b> P-OLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li><b> Avant : </b> 16 MP</li>
+                                    <li><b>Arrière : </b> 48 MP + 8 MP + 5 MP</li>
+                                </ol>
+                            </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------11th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#Moto Razr"><img src="../Images/produits/MOTO RAZR.jpg" alt="Moto" width="50%"></a>
+                </div>
+                <div id="Moto Razr" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Motorolla Razr</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b>Couleur : </b> Noir </li>
+                            <li><b>Capacité de stockage :</b> 256GB </li>
+                            <li><b>Bluetooth :</b> 5.1 </li>
+                            <li><b>RAM : </b> 8GB </li>
+                            <li> <b> Taille de l'écran : </b>
+                                <ol type="I">
+                                    <li> <b> Ouvert : </b> 6.2 Pouces</li>
+                                    <li><b>Fermé : </b> 2.7 Pouces </li>
+                                </ol>
+                            </li>
+                            <li><b>Type d'affichage : </b>
+                                <ol type="a">
+                                    <li> <b> Interne : </b> P-OLED</li>
+                                    <li><b>Extene : </b> G-OLED</li>
+                                </ol>
+                            </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 20 MP</li>
+                                    <li><b>Arrière : </b> 48 MP</li>
+                                </ol>
+                            </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                            <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------12th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#iphone6"><img src="../Images/produits/iphone-6s-16-go-or.jpg" alt="iphone"
+                            width="60%"></a>
+                </div>
+                <div id="iphone6" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone 6s</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b> A1633 </li>
+                            <li><b>Couleur : </b> Or</li>
+                            <li><b>Capacité de stockage :</b> 64 GB</li>
+                            <li><b>RAM : </b>2GB </li>
+                            <li> <b> Taille de l'écran : </b>4.7 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type:circle;">
+                                    <li> <b> Avant : </b>5 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K à 30 images/s</li>
+                            <li><b>Écran : </b> Retina HD</li>
+                            <li><b>Bluetooth : </b>4.2 </li>
+                            <li><b>Touch ID :</b> Capteur d’empreinte digitale intégré au bouton principal </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+
+
+        <tr>
+            <th>Iphone 7</th>
+            <th>Google Pixel 6</th>
+            <th>TLC 20 Pro</th>
+            <th>Sony Z2</th>
+        </tr>
+        <!---------13th phone------------>
+        <tr>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#iphone7"><img src="../Images/produits/iphone-7-rose gold.jpg" alt="iphone"
+                            width="45%"></a>
+                </div>
+                <div id="iphone7" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Iphone 7</h1>
+                        <ul style="list-style-type:square; text-align: left;">
+                            <li><b> Modèle : </b> A1660 </li>
+                            <li><b>Couleur : </b> Or Rose</li>
+                            <li><b>Capacité de stockage :</b> 32 GB</li>
+                            <li><b>RAM : </b> 2GB </li>
+                            <li> <b> Taille de l'écran : </b>4.7 pouces </li>
+                            <li><b>Caméra</b>
+                                <ul style="list-style-type:circle;">
+                                    <li> <b> Avant : </b> 7 Mpx </li>
+                                    <li><b>Arrière : </b>12 Mpx </li>
+                                </ul>
+                            </li>
+                            <li><b>Vidéo</b> 4K à 30 images/s</li>
+                            <li><b>Écran : </b> Retina HD</li>
+                            <li><b>Bluetooth : </b>4.2 </li>
+                            <li><b>Touch ID :</b> Capteur d’empreinte digitale intégré au bouton principal </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------14th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#pixel"><img src="../Images/produits/PIXEL 6.jpeg" alt="pixel" width="70%"></a>
+                </div>
+                <div id="pixel" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Google Pixel 6</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b>Couleur : </b> Gris </li>
+                            <li><b>Capacité de stockage :</b> 128 GB </li>
+                            <li><b>Bluetooth :</b> 5.1 </li>
+                            <li><b>RAM : </b> 8GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.4 Pouces</li>
+                            <li><b>Type d'affichage : </b> AMOLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 8 MP</li>
+                                    <li><b>Arrière : </b> 50 MP + 12 MP </li>
+                                </ol>
+                            </li><br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------15th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#tlc20"><img src="../Images/produits/TLC 20 PRO.jpg" alt="tlc" width="65%"></a>
+                </div>
+                <div id="tlc20" class="modal">
+                    <div class="modal_content">
+
+                        <h1>TLC 20 Pro</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> D6502 </li>
+                            <li><b>Couleur : </b> Bleu Marin </li>
+                            <li><b>Capacité de stockage :</b> 256 GB avec emplacement pour MicroSD</li>
+                            <li><b>Bluetooth :</b> 5.1 </li>
+                            <li><b>RAM : </b> 6GB </li>
+                            <li> <b> Taille de l'écran : </b> 6.67 Pouces</li>
+                            <li><b>Type d'affichage : </b> LCD </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 32 MP</li>
+                                    <li><b>Arrière : </b> 48MP + 16MP + 5MP + 2MP</li>
+                                    <br>
+                                </ol>
+                            </li>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+
+
+            <!---------14th phone------------>
+            <td>
+                <div id="photo" class="light">
+                    <a href="#z2"><img src="../Images/produits/XPERIA Z2.jpg" alt="Sony" width="78%"></a>
+                </div>
+                <div id="z2" class="modal">
+                    <div class="modal_content">
+
+                        <h1>Sony Z2</h1>
+                        <ul style="list-style-type:disc; text-align: left;">
+                            <li><b> Modèle : </b> </li>
+                            <li><b>Couleur : </b> Noir </li>
+                            <li><b>Capacité de stockage :</b> 16GB avec emplacement pour MicroSD</li>
+                            <li><b>Bluetooth :</b> 4.0 </li>
+                            <li><b>RAM : </b> 3GB </li>
+                            <li> <b> Taille de l'écran : </b> 5.2 Pouces</li>
+                            <li><b>Type d'affichage : </b> AMOLED </li>
+                            <li><b>Caméra</b>
+                                <ol>
+                                    <li> <b> Avant : </b> 2.1MP</li>
+                                    <li><b>Arrière : </b> 20MP</li>
+                                </ol>
+                            </li> <br>
+                            <li><b>Accessoires : </b> Chargeur inclus</li>
+                        </ul>
+
+                        <a href="#" class="modal_close">&times;</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+<!--------------footer (contact)---------------------->
+<footer class="light">
+    <div id="contact">
+        <p class=" h1">Contact</p>
+        <p class="h3">
+            514-333-222 <br>
+            <a href="mailto:">RecyclePhoneCell@gmail.com</a>
+        </p>
+
+    </div>
+   
+    <div id="social">
+        <p class="h1">Suivez-nous sur :</p>
+        <p class="h3">
+            <a href="http://facebook.com"><img src="../Images/footer/facebook-and-twitter-icon-13.jpg" alt="facebook"
+                    width="15%"></a>
+            <a href="https://twitter.com/"> <img src="../Images/footer/small-twitter-icon-9.jpg" alt="twitter"
+                    width="17%"></a>
+            <a href="http://instagram.com"> <img src="../Images/footer/insta.jpg" alt="instagram" width="15%"></a>
+        </p>
+    </div>
+
+    <div id="heure_Ouv">
+        <p class="h1">Heures D'ouvertures</p>
+        <p class="h3">
+            Lundi au vendredi : 9h 18h <br>
+            Samedi : 9h à 17h <br>
+            Dimanche : Fermé
+        </p>
+
+    </div>
+</footer>
+
+</body>
+
+</html>

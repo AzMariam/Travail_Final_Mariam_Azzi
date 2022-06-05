@@ -1,0 +1,75 @@
+body {
+    margin: 0vw 0vw;
+    background-color: black;
+}
+
+#principale {
+    margin-top: 11vw;
+}
+
+#rep1 {
+    width: 15vw;
+    margin: -8vw 25vw 0vw 28vw;
+    position: absolute;
+}
+
+#rep2 {
+    width: 15vw;
+    margin: 17vw 5vw 0vw 44vw;
+    position: absolute;
+}
+
+#rep3 {
+    width: 15vw;
+    margin: -15vw 5vw 0vw 73vw;
+    position: absolute;
+}
+
+#rep4 {
+    width: 18vw;
+    margin: 60vw 5vw 0vw 42vw;
+    position: absolute;
+}
+
+#imgRep {
+    width: 29vw;
+    margin: 10vw 5vw 0vw 60vw;
+ 
+}
+
+#imgAchat {
+    width: 35vw;
+    margin: 15vw 50vw 0vw 7vw;
+}
+
+#imgAcc {
+    width: 25vw;
+    margin: 9vw 0vw 0vw 58vw;
+}
+
+#reparation {
+    background-color: white;
+    margin: -12vw 55vw 0vw 8vw;
+    font-size: 25px;
+    padding: 2vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#achat {
+    background-color: white;
+    margin: -28vw 10vw 0vw 50vw;
+    font-size: 25px;
+    padding: 2vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#accessoire {
+    background-color: white;
+    margin: -19vw 53vw 10vw 10vw;
+    font-size: 25px;
+    padding: 3vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}

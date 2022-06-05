@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin: 0vw;
+    padding: 0vw;
+}
+
+#messageForm{
+    border: solid 1px rgb(233, 242, 243);
+    box-shadow:
+    0 0 0.1vw  0.1vw #8cecec,   
+    0 0 0.3vw  0.1vh #e4f2f4,
+    0 0   2vw  0.2vw #85d4e6,
+    
+    inset 0 0 1.5vw  0.2vw #d8dfe0,
+    inset 0 0 0.2vw  0.2vw #ffffff,
+    inset 0 0 0.5vw  0.2vh #f4f8f8; 
+
+text-align: center; 
+padding:2vw;
+width: 30vw;
+position: relative;
+margin:10vw 30vw 20vw 30vw;
+background-color: rgba(255, 255, 255, 0.954);
+font-size : 1.5vw;
+}

@@ -1,0 +1,238 @@
+body{
+   margin:0vw 0vw 0vw 0vw
+    }
+#date_heure{
+    margin-right: 4vw;
+    margin-top: -1vh;
+    margin-left: 83vw ;
+    z-index: 6;
+    position: absolute;
+}
+#nom{
+    margin: -2vw 75vw 0vw 1vw;
+    position:absolute;
+    font-size: 2vw;
+    text-align: left;
+}
+
+#S_compteur
+    {
+        background-image: url(../Images/index/banniere5.jpg);
+        background-size:28%;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-color: rgb(0, 0, 0);
+        padding: 7vw 5vw;
+        text-align:center;
+        z-index:2;
+        position: relative;
+    }
+#visit{
+        font-size: 1vw;
+        color: white;
+        font-family: 'Tiro Devanagari Marathi', serif;
+        position: absolute;
+        margin: 0vw 41vw;
+    }
+.nbrCompt{
+    padding-top: 3vh;
+    }
+#bienvenue{
+    color :rgb(42, 213, 247);
+    font-size: 1.3vw;
+    margin-right:6vw ;
+    margin: left -20vw;
+    margin-top: -4vw ;
+}
+#principale{
+    position: relative;
+}
+
+/*------------barre en mouvement -----*/
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    left: 0vw;
+    width: 151vw;
+    margin: 0vw;
+    animation: 60s slider infinite;
+}
+#slider figure img{
+    width: 8.33%;
+    float: left;
+}
+@keyframes slider{
+    0% {left:0%;}
+    50%{left:-50%;}
+    100% {right:0%}
+}
+#video{
+    text-align: center;
+    width: 45vw;
+    display: flex;
+    margin: -30vw 25vw 15vw 28vw;
+    z-index: 7;
+}
+#vente {
+    margin: 6vw 5vw 0vw 5vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    width: 20vw;
+    height: 15vw;
+    z-index: 9;
+}
+#vente:hover , #achat:hover, #reparation:hover, #accessoires:hover{
+    box-shadow: 5px 4px 10px #00ffe1;
+}
+#achat{
+    margin: -15vw 5vw 0vw 75vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    width: 20vw;
+    height: 15vw;
+    z-index: 10;
+}
+#reparation{
+    margin: 6vw 5vw 0vw 5vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    width: 20vw;
+    height: 15vw;
+    z-index: 9;
+}
+#accessoires{
+    margin: -15vw 5vw 0vw 75vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    width: 20vw;
+    height: 15vw;
+    z-index: 10;
+}
+.mot{
+    color: #050607;
+    text-align: center;
+}
+
+
+/*-----------------------pris sur intenet avec quelques modifications-------------*/
+ /*COMMON*/
+ .DPDC {
+    display: table;
+    position: relative;
+    box-sizing: border-box;
+    font-size: 100.01vw;
+    font-style: normal;
+    font-family: Arial;
+    background-position: 50vw 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    user-select: none
+}
+.DPDCh,
+.DPDCd {
+    width: fit-content;
+    line-height: 1vw
+}
+.DPDCh {
+    margin-bottom: 0.4vw
+}
+.DPDCd {
+    margin-top: .24vw
+}
+.DPDCt {
+    line-height: 1
+}
+.DPDCth,
+.DPDCtm,
+.DPDCts {
+    display: inline-block;
+    vertical-align: text-top;
+    white-space: nowrap
+}
+.DPDCth {
+    min-width: 1.15vw
+}
+.DPDCtm,
+.DPDCts {
+    min-width: 1.44vw
+}
+.DPDCtm::before,
+.DPDCts::before {
+    display: inline-block;
+    content: ':';
+    vertical-align: middle;
+    margin: -.34vw 0 0 -.07vw;
+    width: .32em;
+    text-align: center;
+    opacity: .72;
+    filter: alpha(opacity=72)
+}
+.DPDCt12 {
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 0.5vw
+}
+.DPDCdm::after {
+    content: ' '
+}
+.DPDCda::after {
+    content: ', '
+}
+
+.DPDCdt {
+    margin-right: .48vw
+}
+.DPDCtn {
+    display: inline-block;
+    position: relative;
+    width: 0.5vw;
+    height: 0.9vh;
+    border: 0.1vw solid;
+    border-radius: 50vw;
+    overflow: hidden
+}
+.DPDCtn>i {
+    display: block;
+    content: '';
+    position: absolute;
+    right: 33%;
+    top: -5%;
+    width: 85%;
+    height: 85%;
+    border-radius: 50%
+}
+.DPDCsl::before,
+.DPDCsl::after {
+    display: inline-block;
+    opacity: .4
+}
+.DPDCs svg {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1.2vw;
+    height: 1.2vw;
+    opacity: .48
+}
+/* widget width, padding, background, border, rounded corners */
+.DPDCh {
+    color: #007DBF;
+    font-weight: normal
+}
+/* night-sign color = time & date color */
+.DPDCtn>i {
+    background-color: #343434
+}
+/* night-sign color = time & date color */
+.DPDCt {
+    font-size: 1.6vw
+}
+/* time font-size */
+.DPDCh,
+.DPDCd {
+    font-size: 0.8vw
+}
+ /* headline & date font-size */
+

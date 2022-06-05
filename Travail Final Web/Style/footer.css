@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    height: 7vw;
+    position: relative;
+}
+
+#social {
+    padding: 0vw 2vw 0vw 75vw;
+    position: absolute;
+    text-align: center;
+    width: 14vw;
+}
+
+#contact {
+    margin: 0vw 10vw;
+    position: absolute;
+    text-align: center;
+    width: 14vw;
+}
+
+#heure_Ouv {
+    margin: 0vw 40vw;
+    position: absolute;
+    width: 14vw;
+}
+
+.h1 {
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 0.7vw;
+    margin-top: -1vw;
+}
+a:link{
+    text-decoration: none;
+}

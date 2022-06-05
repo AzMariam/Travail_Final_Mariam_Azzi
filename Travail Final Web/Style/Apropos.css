@@ -1,0 +1,63 @@
+body {
+    margin: 0vw 0vw;
+    background-color: black;
+}
+
+#img3 {
+    width: 23vw;
+    margin: 0vw 0vw 0vw 68vw;
+}
+
+#section1{
+    background-color: rgb(183, 248, 248);
+    margin:-16vw 40vw 10vw 20vw;
+    position: absolute;
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: rgb(2, 128, 142);
+}
+#apropos {
+    position: relative;
+    background-color: white;
+    margin:2vw;
+    font-size: 1.2vw;
+    padding: 3vw 3.5vw 3.5vw 3vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    border-radius: 50%;
+}
+#section2{
+    background-color: rgb(183, 248, 248);
+    width: 80%;
+    height: 90%;
+    margin: 20vw 5vw 5vw 10vw;
+    position: relative;
+    border-style: ridge;
+    border-color: rgb(2, 128, 142);
+    border-radius: 15%;  
+}
+
+#interface {
+    background-color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin:2vw ;
+    padding:3vw 10vw;
+    border-radius: 15%;  
+}
+#video {
+    width: 50vw;
+    height: 25vw;
+    padding: 5vw 2vw;
+}
+#rep2 {
+    width: 15vw;
+    margin: -15vw 5vw 0vw 3vw;
+    position: absolute;
+}
+#rep3 {
+    width: 15vw;
+    margin: 3vw 5vw 0vw 62vw;
+    position: absolute;
+}

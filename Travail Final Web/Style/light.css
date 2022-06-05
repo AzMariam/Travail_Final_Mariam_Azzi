@@ -1,0 +1,12 @@
+.light{
+
+    border: solid 1px rgb(145, 226, 243);
+    box-shadow:
+    0 0 0.1vw  0.1vw #b5f6f8,   
+    0 0 0.3vw  0.1vh #71e1ee,
+    0 0   2vw  0.2vw #80d8f3,
+  
+    inset 0 0 1.5vw  0.2vw #26dbf7,
+    inset 0 0 0.2vw  0.2vw #070707,
+    inset 0 0 0.5vw  0.2vh #b5f6f8;
+}

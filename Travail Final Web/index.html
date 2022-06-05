@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="./Style/Index.CSS">
+    <link rel="stylesheet" href="./Style/footer.css">
+    <link rel="stylesheet" href="./Style/light.css">
+    <link rel="stylesheet" href="./Style/header.css">
+    <script></script>
+</head>
+
+<body>
+
+    <!--1ère Section Barre Menus ----------------------------------------------------------------------------->
+
+    <!-------logo------>
+    <aside id="logo">
+        <a href="./index.html"> <img src="./Images/Logo.png" alt="logo" width="100%" id="imgLogo"></a>
+        <p id="id">
+            Mariam Azzi 2020697
+        </p>
+    </aside>
+    <!---menu----------->
+    <div id="heading">
+        <div id="menu">
+            <a href="./index.html" class="menu">Accueil</a>
+            <a href="./Html/Apropos.html" class="menu"> À propos</a>
+            <a href="./Html/Produits.html" class="menu">Produits</a>
+            <a href="./Html/Services.html" class="menu">Service</a>
+            <a href="./Html/Contact.html" class="menu">Contact</a>
+        </div>
+
+        <!-------------heure et date prit sur inernet, j'ai inclus quelsues modification  ------------------------------------------------------------------------------------>
+        <aside id="date_heure">
+            <!--Dayspedia.com widget-->
+            <div class="DPDC" cityid="3124" lang="fr" id="dayspedia_widget_25244084936e36bf"
+                host="https://dayspedia.com" ampm="true" nightsign="true" sun="false"
+                style="border-color: rgb(72, 219, 202); background-image: none; background-color: rgb(5, 5, 5); width: auto; border-width: 0px;"
+                auto="true">
+
+                <a class="DPl" href="https://dayspedia.com/time/ca/Montreal/" target="_blank"
+                    style="display:block!important;text-decoration:none!important;border:none!important;cursor:pointer!important;background:transparent!important;line-height:0!important;text-shadow:none!important;position:absolute;z-index:1;top:0;right:0;bottom:0;left:0">
+                    </svg>
+                </a>
+                <div class="DPDCh" style="font-weight: normal; color: rgb(42, 213, 247);">Heure actuelle à Montréal
+                </div>
+                <div class="DPDCt" style="color: rgb(42, 213, 247); font-weight: normal;">
+                    <span class="DPDCth">04</span><span class="DPDCtm">41</span><span class="DPDCts">36</span><span
+                        class="DPDCt12">pm</span>
+                </div>
+                <div class="DPDCd" style="color: rgb(42, 213, 247); font-weight: normal;">
+                    <span class="DPDCdt">sam. 28 mai</span><span class="DPDCtn"
+                        style="display: none; border-color: rgb(129, 212, 228);"><i
+                            style="background-color: rgb(129, 212, 228);"></i></span>
+                </div>
+
+                <div class="DPDCs" style="display: none; color: rgb(129, 212, 228);">
+                    <span class="DPDCsr">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                            <path
+                                d="M12,4L7.8,8.2l1.4,1.4c0,0,0.9-0.9,1.8-1.8V14h2c0,0,0-3.3,0-6.2l1.8,1.8l1.4-1.4L12,4z"
+                                style="fill: rgb(129, 212, 228);"></path>
+                            <path
+                                d="M6.8,15.3L5,13.5l-1.4,1.4l1.8,1.8L6.8,15.3z M4,21H1v2h3V21z M20.5,14.9L19,13.5l-1.8,1.8l1.4,1.4L20.5,14.9z M20,21v2h3 v-2H20z M6.1,23C6,22.7,6,22.3,6,22c0-3.3,2.7-6,6-6s6,2.7,6,6c0,0.3,0,0.7-0.1,1H6.1z"
+                                style="fill: rgb(129, 212, 228);"></path>
+                        </svg>
+                        05:11<sup>am</sup>
+                    </span>
+                    <span class="DPDCsl">15:20</span>
+                    <span class="DPDCss">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                            <path
+                                d="M12,14L7.8,9.8l1.4-1.4c0,0,0.9,0.9,1.8,1.8V4h2c0,0,0,3.3,0,6.2l1.8-1.8l1.4,1.4L12,14z"
+                                style="fill: rgb(129, 212, 228);"></path>
+                            <path
+                                d="M6.8,15.3L5,13.5l-1.4,1.4l1.8,1.8L6.8,15.3z M4,21H1v2h3V21z M20.5,14.9L19,13.5l-1.8,1.8l1.4,1.4L20.5,14.9z M20,21v2h3 v-2H20z M6.1,23C6,22.7,6,22.3,6,22c0-3.3,2.7-6,6-6s6,2.7,6,6c0,0.3,0,0.7-0.1,1H6.1z"
+                                style="fill: rgb(129, 212, 228);"></path>
+                        </svg>
+                        08:31<sup>pm</sup>
+                    </span>
+                </div>
+                <script>
+                    var s, t; s = document.createElement("script"); s.type = "text/javascript";
+                    s.src = "//cdn.dayspedia.com/js/dwidget.min.vb46adaa2.js";
+                    t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+                    s.onload = function () {
+                        window.dwidget = new window.DigitClock();
+                        window.dwidget.init("dayspedia_widget_25244084936e36bf");
+                    };
+                </script>
+                <!--/DPDC-->
+            </div>
+            <!--Dayspedia.com widget ENDS-->
+        </aside>
+    </div>
+
+    <!--------------division Compteur  -------------------------------------------------------------------------------------------->
+
+    <div id="S_compteur">
+        <div id="nom">
+            <span style="color:  greenyellow;">Resale </span> <br> <span
+                style="color:rgba(178, 174, 174, 0.958) ;">Phone </span> <br> <span style="color: rgb(42, 213, 247);">
+                Cellular </span>
+        </div>
+        <P id="bienvenue">Bienvenue dans notre site web</P>
+        <p id="visit"> Nombre de visiteurs </p>
+
+        <!---------------prit sur internet avec quelques modifications------>
+        <div id="sfcwttccr3lb1e5sqbghc614qpukljq3g57" class="nbrCompt"></div>
+        <script type="text/javascript"
+            src="https://counter9.stat.ovh/private/counter.js?c=wttccr3lb1e5sqbghc614qpukljq3g57&down=async"
+            async></script>
+    </div>
+
+    <!------------images telephones--------------------------------------------------------------------------------------------------------->
+    <div id="principale">
+        <div id="slider">
+            <figure>
+                <img src=".//Images/index/s22_ultra_productkv_burgundy_mo.jpg" alt="img1" width="250vw" height="300vh">
+                <img src="./Images/index/samsung-galaxy-s21-256go-rose.jpg" alt="img2" width="250vw" height="300vh">
+                <img src="./Images/index/samsung_galaxy_z_flip3_02_negro_l.jpg" alt="img3" width="250vw" height="300vh">
+                <img src="./Images/index/iphone 1.jpg" alt="img4" width="250vw" height="300">
+                <img src="./Images/index/iphone2.jpg" alt="img5" width="250vw" height="300vh">
+                <img src="./Images/index/HUAWEI-P50-Pocket-1.jpg" alt="img6" width="250vw" height="300vh">
+                <img src="./Images/index/hw.jpg" alt="img7" width="250vw" height="300vh">
+                <img src="./Images/index/iphone 12.jpg" alt="img8" width="250vw" height="300vh">
+                <img src="./Images/index/hw2.jpg" alt="img9" width="250vw" height="300vh">
+                <img src="./Images/index/iphone 8plus.jpg" alt="img10" width="250vw" height="300vh">
+                <img src="./Images/index/iphone-6s-16-go-or.jpg" alt="img11" width="250vw" height="300vh">
+                <img src=".//Images/index/s22_ultra_productkv_burgundy_mo.jpg" alt="img1" width="250vw" height="300vh">
+
+            </figure>
+        </div>
+
+        <div id="vente" class="light">
+            <a href="./Html/Produits.html">
+                <P class="mot"> Vente <br> <img src="./Images/index/vente 2.jpg" alt="vente" width="35%"></P>
+            </a>
+        </div>
+
+        <div id="achat" class="light">
+            <a href="./Html/Services.html">
+                <p class="mot">Achat <br><img src="./Images/index/achat.jpg" alt="achat" width="35%"></p>
+            </a>
+        </div>
+
+        <div id="reparation" class="light">
+            <a href="./Html/Services.html">
+                <p class="mot">Réparation <br><img src="./Images/index/reparation.jpg" alt="achat" width="34%"></p>
+            </a>
+        </div>
+
+        <div id="accessoires" class="light">
+            <a href="./Html/Services.html">
+                <p class="mot">Accessoires <br> <img src="./Images/index/accessories-icon-6.jpg" alt="achat"
+                        width="35%"><br></p>
+            </a>
+        </div>
+
+
+        <!----------video d'un magasin de cellulaire télécharger à partir de facebook-------------->
+        <div id="video">
+            <video src="./Videos/video magasin.mp4" controls width="100%">
+                <p>Votre navigateur ne supporte pas ce format de video</p>
+            </video>
+        </div>
+    </div>
+
+
+    <!--------------footer (contact)---------------------->
+    <footer class="light">
+        <div id="contact">
+            <p class=" h1">Contact</p>
+            <p class="h3">
+                514-333-222 <br>
+                <a href="mailto:">RecyclePhoneCell@gmail.com</a>
+            </p>
+
+        </div>
+        <div id="social">
+            <p class="h1">Suivez-nous sur :</p>
+            <p class="h3">
+                <a href="http://facebook.com"><img src="./Images/footer/facebook-and-twitter-icon-13.jpg" alt="facebook"
+                        width="15%"></a>
+                <a href="https://twitter.com/"> <img src="./Images/footer/small-twitter-icon-9.jpg" alt="twitter"
+                        width="17%"></a>
+                <a href="http://instagram.com"> <img src="./Images/footer/insta.jpg" alt="instagram" width="15%"></a>
+            </p>
+        </div>
+
+        <div id="heure_Ouv">
+            <p class="h1">Heures D'ouvertures</p>
+            <p class="h3">
+                Lundi au vendredi : 9h 18h <br>
+                Samedi : 9h à 17h <br>
+                Dimanche : Fermé
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

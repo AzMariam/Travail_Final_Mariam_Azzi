@@ -1,0 +1,43 @@
+#heading
+    {
+        background-color: black;
+        padding: 2.5vw;
+        margin-top: -1vw;
+        z-index:1;
+    }
+#logo{
+    width: 15vw;
+    padding-left:5vw;
+    padding-top: 7vh;
+    float: left;
+    z-index: 5;
+    position: absolute;
+}
+#id{
+    color: rgb(42, 213, 247);
+    margin-left:7.5vw;
+    margin-top: -3.5vh;
+    position: relative;
+}
+.menu{
+    color: white;
+    font-size: 20px;
+    padding: 0.5vw;
+    margin: 0.4vw;
+    text-decoration:none;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: solid 1px rgb(42, 213, 247);
+    box-shadow: 
+    0 0 0.4vw  0.1vh #0bc8e5,
+    inset 0 0 0.5vw  0.2vh #0bc8e5;
+    border-radius: 2.5px;
+    position: relative;
+}
+.menu:hover ,#imgLogo:hover{
+    box-shadow: 5px 4px 10px #00fff7;
+    font-size: x-large;
+
+}
+#menu{
+    margin-left: 31vw;
+}
